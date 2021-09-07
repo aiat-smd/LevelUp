@@ -1,0 +1,75 @@
+.compos {
+  width: 100vw;
+  padding-top: 100px;
+  text-align: center;
+  overflow: hidden;
+
+
+  &__img {
+    margin: 150px 0px 50px 0px;
+  }
+}
+
+.ingridient {
+
+  & img {
+    border-radius: 50%;
+  }
+
+  &__desc {
+    font-size: 28px;
+  }
+}
+
+
+///////////////////////////// MEDIA REQUESTS///////////////////////////
+
+@media(min-width: 320px) {
+  .compos {
+
+    &__content {
+      margin-left: -60px;
+    }
+
+    &__img {
+      width: 180px;
+      margin-top: 50px;
+    }
+  }
+
+  .ingridient {
+
+    & img {
+      width: 120px;
+    }
+
+    &__desc {
+      font-size: 22px;
+    }
+  }
+}
+
+@media(min-width: 768px) {
+  .compos {
+
+    &__content {
+      margin-right: 0px;
+    }
+
+    &__img {
+      width: 240px;
+      margin-top: 50px;
+    }
+  }
+
+  .ingridient {
+
+    & img {
+      width: 200px;
+    }
+
+    &__desc {
+      font-size: 28px;
+    }
+  }
+}
