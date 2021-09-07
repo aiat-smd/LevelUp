@@ -1,5 +1,5 @@
 .testimonials {
-padding: 7% 0%;
+  padding: 7% 0%;
 
   &__img {
     width:15%;
@@ -18,14 +18,9 @@ padding: 7% 0%;
 
 @media (max-width: 768px) {
   .testimonials {
-    
-    &__content {
-      margin-left: -40px;
-    }
 
     &__text {
       font-size: 20px;
-     
     }
   }
 }
